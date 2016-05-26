@@ -2,8 +2,6 @@
 # on two lines for easier vgrepping
 # entry in a nice long thread on the Arch Linux forums: http://bbs.archlinux.org/viewtopic.php?pid=521888#p521888
 
-RPROMPT='%{$fg_bold[blue]%}$(git_prompt_info)%{$reset_color%}'
-
 FSTLINEPREFIX="%{$fg[cyan]%}┌─%{$reset_color%}"
 
 if [ "`id -u`" -ne 0 ]; then
@@ -27,8 +25,11 @@ CWD_PROMPT="%~"
 
 SNDLINEPREFIX="%{$fg[cyan]%}└─$%{$reset_color%}"
 
-PROMPT=$'$FSTLINEPREFIX$USER_PROMPT$ENV_PROMPT$ROLE_PROMPT$TIME_PROMPT $CWD_PROMPT
-$SNDLINEPREFIX  '
+#PROMPT=$'$FSTLINEPREFIX$USER_PROMPT$ENV_PROMPT$ROLE_PROMPT$TIME_PROMPT $CWD_PROMPT
+#$SNDLINEPREFIX  '
+
+PROMPT='$USER_PROMPT$ENV_PROMPT $CWD_PROMPT'
+RPROMPT='$ROLE_PROMPT %{$fg_bold[blue]%}$(git_prompt_info)%{$reset_color%}'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="git:(%{$fg[red]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"

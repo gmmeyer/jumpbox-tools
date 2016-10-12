@@ -1,5 +1,5 @@
 # Do it!
 
 ```
-curl -L https://raw.githubusercontent.com/gmmeyer/jumpbox-tools/master/bootstrap.sh | sh
+curl -L https://raw.githubusercontent.com/gmmeyer/jumpbox-tools/master/bootstrap.sh | zsh && zsh
 ```

@@ -7,3 +7,4 @@ alias cap="cap -f /etc/capistrano/Capfile"
 alias c="clear"
 
 alias e='emacs'
+alias whoiam="curl -s 169.254.169.254/latest/meta-data/iam/info"

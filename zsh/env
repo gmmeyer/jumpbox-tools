@@ -4,6 +4,7 @@ if [ -f /etc/profile.d/consul.sh ]; then
 fi
 
 # custom tools
-PATH=~/.bin:$PATH
+export PATH=~/.bin:$PATH
 
-EDITOR=emacs
+export EDITOR=emacs
+export KNIFE_HOME=/etc/chef

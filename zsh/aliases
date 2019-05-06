@@ -7,8 +7,8 @@ alias la="ls -a"
 alias lla="ls -al"
 alias nn="netstat -tulpn"
 alias cap="cap -f /etc/capistrano/Capfile"
-alias clear="clear && printf '\e[3J'"
 alias c="clear"
+alias cl="clear && printf '\e[3J'"
 
 alias e='emacs'
 alias whoiam="curl -s 169.254.169.254/latest/meta-data/iam/info"

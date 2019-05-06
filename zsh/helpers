@@ -1,3 +1,7 @@
+# -*- mode: shell-script -*-
+# vi: set ft=shell-script :
+
+
 environmentlc(){
     cat /opt/datadog/etc/environment | cut -c 5-
 }

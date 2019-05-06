@@ -1,3 +1,6 @@
+# -*- mode: shell-script -*-
+# vi: set ft=shell-script :
+
 alias s="cd .."
 alias ll="ls -l"
 alias la="ls -a"

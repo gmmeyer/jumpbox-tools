@@ -1,3 +1,7 @@
+# -*- mode: shell-script -*-
+# vi: set ft=shell-script :
+
+
 # custom DD consul helpers
 if [ -f /etc/profile.d/consul.sh ]; then
     . /etc/profile.d/consul.sh

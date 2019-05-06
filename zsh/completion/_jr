@@ -1,4 +1,6 @@
+# -*- mode: shell-script -*-
+# vi: set ft=shell-script :
+
+
 #compdef jr
 # from @jmoiron bash completion script
-
-

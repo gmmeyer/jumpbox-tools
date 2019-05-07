@@ -12,3 +12,6 @@ alias cl="clear && printf '\e[3J'"
 
 alias e='emacs'
 alias whoiam="curl -s 169.254.169.254/latest/meta-data/iam/info"
+
+# reload zsh
+alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
